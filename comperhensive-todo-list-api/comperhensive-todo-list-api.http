@@ -1,0 +1,6 @@
+@comperhensive_todo_list_api_HostAddress = http://localhost:5245
+
+GET {{comperhensive_todo_list_api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
