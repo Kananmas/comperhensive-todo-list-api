@@ -1,0 +1,8 @@
+services:
+  comperhensive-todo-list-api:
+    container_name: comperhensive-todo-list-api
+    image: comperhensive-todo-list-api
+    build: 
+      dockerfile: Dockerfile
+    ports:
+      -8000:44356
