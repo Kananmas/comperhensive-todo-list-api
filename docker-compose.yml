@@ -6,3 +6,9 @@ services:
       dockerfile: Dockerfile
     ports:
       -8000:44356
+    networks:
+      - todonetwork
+networks:
+  todonetwork:
+    name: todo_app_network
+    external: true
