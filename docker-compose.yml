@@ -4,9 +4,7 @@ services:
     image: comperhensive-todo-list-api
     build:
       context: .
-      dockerfile: Dockerfile
-    ports:
-      - 8000:44356
+      dockerfile: MyChatAppApi/Dockerfile
     networks:
       - todonetwork
 networks:
