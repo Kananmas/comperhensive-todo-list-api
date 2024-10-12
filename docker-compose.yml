@@ -4,7 +4,7 @@ services:
     image: comperhensive-todo-list-api
     build:
       context: .
-      dockerfile: MyChatAppApi/Dockerfile
+      dockerfile: comperhensive-todo-list-api/Dockerfile
     networks:
       - todonetwork
 networks:
