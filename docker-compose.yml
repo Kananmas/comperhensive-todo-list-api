@@ -1,3 +1,6 @@
+version: '0.1'
+
+
 services:
   comperhensive-todo-list-api:
     container_name: comperhensive-todo-list-api
