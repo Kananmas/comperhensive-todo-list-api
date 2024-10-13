@@ -6,8 +6,8 @@ services:
     container_name: comperhensive-todo-list-api
     image: comperhensive-todo-list-api
     build:
-      context: .
-      dockerfile: comperhensive-todo-list-api/Dockerfile
+      context:  comperhensive-todo-list-api/
+      dockerfile: Dockerfile
     networks:
       - todonetwork
 networks:
